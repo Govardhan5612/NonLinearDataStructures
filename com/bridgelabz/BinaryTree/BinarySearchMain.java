@@ -5,7 +5,7 @@ package com.bridgelabz.BinaryTree;
  */
 public class BinarySearchMain {
     /**
-     *print the binary search tree
+     * print the binary search tree
      */
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
@@ -47,6 +47,12 @@ public class BinarySearchMain {
         System.out.println();
         tree.insertData(67);
         tree.printData();
+        System.out.println();
+        if (tree.search(tree.root, 63) == true) {
+            System.out.println("63 is present in tree");
+        } else {
+            System.out.println("63 is not present in tree");
+        }
 
     }
 }
