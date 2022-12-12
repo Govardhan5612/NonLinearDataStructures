@@ -17,6 +17,36 @@ public class BinarySearchMain {
         System.out.println();
         tree.insertData(70);
         tree.printData();
+        System.out.println();
+        tree.insertData(22);
+        tree.printData();
+        System.out.println();
+        tree.insertData(40);
+        tree.printData();
+        System.out.println();
+        tree.insertData(11);
+        tree.printData();
+        System.out.println();
+        tree.insertData(3);
+        tree.printData();
+        System.out.println();
+        tree.insertData(16);
+        tree.printData();
+        System.out.println();
+        tree.insertData(60);
+        tree.printData();
+        System.out.println();
+        tree.insertData(95);
+        tree.printData();
+        System.out.println();
+        tree.insertData(65);
+        tree.printData();
+        System.out.println();
+        tree.insertData(63);
+        tree.printData();
+        System.out.println();
+        tree.insertData(67);
+        tree.printData();
 
     }
 }
