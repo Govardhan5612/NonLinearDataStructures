@@ -38,6 +38,24 @@ public class BinarySearchTree {
         print(root.right);
     }
 
+    public boolean search(Node root, int input) {
+        if (root == null) {
+            return false;
+        }
+
+        if (root.data == input) {
+            return true;
+        }
+
+        boolean result1 = search(root.left, input);
+        if (result1 == true)
+            return true;
+
+        boolean result2 = search(root.right, input);
+        return result2;
+
+    }
+
     public void printData() {
         print(root);
     }
