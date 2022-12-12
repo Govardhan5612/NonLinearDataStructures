@@ -55,8 +55,8 @@ public class HashTable {
 
     public static void main(String[] args) {
         HashTable hashTable = new HashTable();
-        String sentence = "To be or not to be";
-        String[] stringArray = sentence.split(" ");
+        String paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+        String[] stringArray = paragraph.split(" ");
         for (int i = 0; i < stringArray.length; i++) {
             hashTable.addValue(stringArray[i]);
         }
